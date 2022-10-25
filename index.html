@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Countdown App</title>
+</head>
+
+<body>
+    <!-- <img src="images/alex-hawthorne-cQxwarmp4ag-unsplash (1).jpg" alt="winter on the mountain"> -->
+    <!-- <h2>Christmas Countdown</h2> -->
+    <h2>Daily Runtime</h2>
+    <p id="display"></p>
+    <div class="countdown__container">
+        <div class="grid__files">
+            <div class="files">
+                <div class="d">dd</div>
+                <p>days</p>
+            </div>
+            <div class="files">
+                <div class="h">hh</div>
+                <p>hours</p>
+            </div>
+            <div class="files">
+                <div class="m">mm</div>
+                <p>minutes</p>
+            </div>
+            <div class="files">
+                <div class="s">ss</div>
+                <p>seconds</p>
+            </div>
+        </div>
+    </div>
+    <form class="date" action="">
+        <label for="time-title">Select date and time: </label>
+        <input type="datetime-local" id="datetime" name="datetime" value="2022-10-25T15:00">
+    </form>
+    <button id="submit">START</button>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+
+
+
+<!-- <!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+p {
+text-align: center;
+font-size: 60px;
+margin-top: 0px;
+}
+</style>
+</head>
+<body>
+
+<p id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+</body>
+</html> -->

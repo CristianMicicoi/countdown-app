@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #211C2C;
+    text-align: center;
+    margin: 0 auto;
+}
+
+body img {
+    width: 1000px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin: 45px 0;
+    color: blanchedalmond;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 18px;
+}
+
+.date input {
+    background-color: blanchedalmond;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#submit {
+    margin: 5px;
+    color: blanchedalmond;
+    background-color: rgb(193, 94, 94);
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 5px;
+    transform: translateX(-150%);
+}
+
+.countdown__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.grid__files {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 0;
+    padding: 20px;
+    margin: 5px 0 20px 0;
+}
+
+.files {
+    box-shadow: currentColor;
+    border-radius: 5px;
+    border: 1px solid #4045c4;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background-color: #2B2C45;
+    /* margin: auto; */
+}
+
+.files p {
+    font-size: 14px;
+    /* font-weight: 200; */
+    text-transform: uppercase;
+    color: #7E798B;
+    text-align: center;
+    transform: translateY(75px);
+}
+
+.d,
+.h,
+.m,
+.s {
+    font-size: 24px;
+    color: rgb(193, 94, 94);
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#display {
+    color: rgb(197, 244, 41);
+    font-size: 36px;
+}
