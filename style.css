@@ -20,33 +20,10 @@ h2 {
     margin: 45px 0;
     color: blanchedalmond;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 
-.date {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: blanchedalmond;
-    font-size: 18px;
-}
 
-.date input {
-    background-color: blanchedalmond;
-    padding: 8px;
-    border-radius: 5px;
-}
-
-#submit {
-    margin: 5px;
-    color: blanchedalmond;
-    background-color: rgb(193, 94, 94);
-    font-weight: 600;
-    padding: 8px;
-    border-radius: 5px;
-    transform: translateX(-150%);
-}
 
 .countdown__container {
     display: flex;
@@ -99,4 +76,38 @@ h2 {
 #display {
     color: rgb(197, 244, 41);
     font-size: 36px;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 18px;
+}
+
+.date input {
+    color: #4045c4;
+    font-size: 16px;
+    background-color: blanchedalmond;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(193, 94, 94);
+}
+
+#submit {
+    /* width: 20px; */
+    /* height: 20px; */
+    text-align: center;
+    margin: 5px;
+    color: blanchedalmond;
+    background-color: rgb(193, 94, 94);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    transform: translateX(-150%);
+    border: 1.5px solid #4045c4;
 }
